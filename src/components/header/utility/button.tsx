@@ -1,9 +1,10 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
-const button = () => {
+const button = ({ toward, keyword }: any) => {
   return (
     <div className="flex m-auto">
-      <p>button</p>
+      <Link to={toward}>{keyword}</Link>
     </div>
   );
 };
