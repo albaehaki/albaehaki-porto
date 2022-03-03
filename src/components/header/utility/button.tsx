@@ -1,7 +1,11 @@
 import React from "react";
 
 const button = () => {
-  return <div>button</div>;
+  return (
+    <div className="flex m-auto">
+      <p>button</p>
+    </div>
+  );
 };
 
 export default button;
