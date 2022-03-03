@@ -1,6 +1,5 @@
 import React from "react";
 import Button from "./utility/button";
-import { BeakerIcon } from "@heroicons/react/outline";
 
 const header = () => {
   return (

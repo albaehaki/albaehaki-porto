@@ -1,6 +1,6 @@
 import React from "react";
 import Home from "./pages/home";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Education from "./pages/education";
 import Galeri from "./pages/galeri";
 import Experience from "./pages/experience";
