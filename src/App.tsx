@@ -6,7 +6,7 @@ import { selectDark } from "./redux/Slice/DarkSlice";
 
 function App() {
   const dark = UseAppSelector(selectDark);
-  const style: any = `transition delay-1000`;
+  const style: any = ``;
   return (
     <div className={`${style} ${dark ? `dark` : ``}`}>
       <Page />

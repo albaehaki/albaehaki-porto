@@ -1,22 +1,9 @@
 import React from "react";
-import { UseAppSelector, useAppDispatch } from "../../../redux/Hook";
-import { DarkModeOn, selectDark } from "../../../redux/Slice/DarkSlice";
 
 const Home = () => {
-  const dark = UseAppSelector(selectDark);
-  const dispatch = useAppDispatch();
-  console.log(dark);
-
   return (
-    <div>
-      <p>home</p>
-      <button
-        onClick={() => {
-          dispatch(DarkModeOn());
-        }}
-      >
-        {dark ? "true" : "false"}
-      </button>
+    <div className="grid h-screen">
+      <h1 className="m-auto text-7xl">Zacky Al Baehaki</h1>
     </div>
   );
 };
