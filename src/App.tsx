@@ -6,7 +6,7 @@ import "./index.tsx";
 function App() {
   return (
     // <BrowserRouter>
-    <div className="">
+    <div className=" text-gray-500">
       <Page />
     </div>
     //</BrowserRouter>

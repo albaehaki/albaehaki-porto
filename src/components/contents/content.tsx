@@ -8,7 +8,7 @@ import About from "./pages/about";
 
 const content = () => {
   return (
-    <div className="bg-green-400 h-[90%]">
+    <div className=" lg:w-[95%] lg:h-screen h-[90%]">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/galeri" element={<Galeri />} />
