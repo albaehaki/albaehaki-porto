@@ -1,15 +1,16 @@
 import React from "react";
 import Page from "./components/page";
 import "./index.tsx";
-//import { BrowserRouter } from "react-router-dom";
+import { UseAppSelector } from "./redux/Hook";
+import { selectDark } from "./redux/Slice/DarkSlice";
 
 function App() {
+  const dark = UseAppSelector(selectDark);
+  const style: any = `transition delay-1000`;
   return (
-    // <BrowserRouter>
-    <div className=" text-gray-500">
+    <div className={`${style} ${dark ? `dark` : ``}`}>
       <Page />
     </div>
-    //</BrowserRouter>
   );
 }
 
