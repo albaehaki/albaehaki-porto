@@ -12,7 +12,7 @@ import {
 const header = () => {
   const style: any = `w-7`;
   return (
-    <div className="grid lg:w-[5%] h-[10%] lg:h-screen shadow-lg">
+    <div className="grid lg:w-[5%] h-[10%] lg:h-screen md:shadow lg:shadow-lg">
       <div className="flex lg:flex-col justify-around">
         <Link className="m-auto" to="/education">
           <AcademicCapIcon className={style} />
