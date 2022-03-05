@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "./header/header";
 import Content from "./contents/content";
-import { SunIcon, MoonIcon } from "@heroicons/react/outline";
+import { SunIcon, MoonIcon } from "@heroicons/react/solid";
 import { UseAppSelector, useAppDispatch } from "../redux/Hook";
 import { selectDark, DarkModeOn } from "../redux/Slice/DarkSlice";
 
@@ -10,7 +10,7 @@ const Page = () => {
   const dispatch = useAppDispatch();
 
   return (
-    <div className="flex text-gray-500 dark:text-gray-100 sm:flex-col lg:flex-row flex-col-reverse dark:bg-gray-800 bg-gray-100 overflow-hidden h-screen ">
+    <div className="flex font-mono text-gray-500 dark:text-gray-100 sm:flex-col lg:flex-row flex-col-reverse dark:bg-gray-800 bg-gray-100 overflow-hidden h-screen ">
       <Header />
       <Content />
       <button

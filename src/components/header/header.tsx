@@ -6,7 +6,7 @@ import {
   BriefcaseIcon,
   UserIcon,
   CollectionIcon,
-} from "@heroicons/react/outline";
+} from "@heroicons/react/solid";
 
 const header = () => {
   const style: any = `w-7`;
