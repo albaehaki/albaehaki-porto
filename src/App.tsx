@@ -6,7 +6,7 @@ import { selectDark } from "./redux/Slice/DarkSlice";
 
 function App() {
   const dark = UseAppSelector(selectDark);
-  const style: any = ``;
+  const style: any = `overflow-hidden`;
   return (
     <div className={`${style} ${dark ? `dark` : ``}`}>
       <Page />
