@@ -20,7 +20,7 @@ const Home = () => {
       </p> */}
       <p
         ref={typing}
-        className="self-end font-bold lg:text-[40px] text-[24px] sm:text-[30px] mb-16 sm:mb-14 lg:mb-0"
+        className="self-center font-bold lg:text-[40px] text-[24px] sm:text-[30px] mb-16 sm:mb-14 lg:mb-0"
       >
         Hi,
         <br /> my name is Zacky Al-Baehaki.
