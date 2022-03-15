@@ -1,14 +1,16 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
 import Page1 from "./galeri_root/page1";
-//import img from "../../../img/Albaehaki - Google Chrome 3_8_2022 6_41_18 AM.png";
+//import Img from "../../../img/1.png";
 
 const galeri = () => {
   return (
-    <div className="flex h-screen">
-      <Routes>
+    <div className="h-screen">
+      {/* <img src={img} /> */}
+      {/* <Routes>
         <Route path="/galeri" element={<Page1 />} />
-      </Routes>
+      </Routes> */}
+      <p>Zacky Al Baehaki</p>
     </div>
   );
 };
