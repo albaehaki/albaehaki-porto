@@ -10,12 +10,12 @@ import {
   siBootstrap,
   siWordpress,
   siMysql,
-  siNextdotjs,
   siReactrouter,
+  siNodedotjs,
 } from "simple-icons/icons";
 
 const About = () => {
-  const [logo, setLogo] = useState([
+  const [logo] = useState([
     siJavascript,
     siTypescript,
     siHtml5,
@@ -25,7 +25,7 @@ const About = () => {
     siRedux,
     siBootstrap,
     siWordpress,
-    siNextdotjs,
+    siNodedotjs,
     siReactrouter,
     siMysql,
   ]);
