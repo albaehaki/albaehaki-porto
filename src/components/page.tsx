@@ -28,7 +28,7 @@ const Page = () => {
   }, [dark]);
 
   return (
-    <div className="flex font-mono text-gray-500 dark:text-gray-100 sm:flex-col lg:flex-row dark:bg-gray-800 bg-gray-100 overflow-hidden h-screen dark:duration-1000 duration-1000">
+    <div className="flex font-mono text-gray-500 dark:text-gray-100 sm:flex-col lg:flex-row dark:bg-gray-800 bg-gray-100 overflow-x-hidden h-screen overflow-y-auto dark:duration-1000 duration-1000">
       <Header />
       <Content />
       <button
