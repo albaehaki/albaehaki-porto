@@ -46,7 +46,6 @@ const Galeri = () => {
     <div className="m-auto pt-5 pb-20  px-5 lg:px-20">
       <div className="grid pb-3">
         <h2 className="font-bold m-auto text-2xl ">My Projects</h2>
-        <p className="mx-auto">jumlah {project.length}</p>
       </div>
       <div className="grid grid-cols-3 py-2">
         <ChevronLeftIcon
@@ -79,7 +78,7 @@ const Galeri = () => {
           src={`/img/${project[id - 1].image}`}
           alt="gambar"
         />
-        <div className="grid grid-cols-3 pt-3 gap-3">
+        <div className="grid grid-cols-3 sm:grid-cols-5 md:grid-cols-8 xl:grid-cols-12 pt-3 gap-3">
           {project[id - 1].tags?.map((x: any, i: number) => (
             <svg
               key={i}
