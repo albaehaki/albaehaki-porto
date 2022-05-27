@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import Header from "./header/header";
-import Content from "./contents/content";
+import Content from "../contents/content";
 import { SunIcon, MoonIcon } from "@heroicons/react/solid";
 import { UseAppSelector, useAppDispatch } from "../redux/Hook";
 import { selectDark, DarkModeOn } from "../redux/Slice/DarkSlice";
