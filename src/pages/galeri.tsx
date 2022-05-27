@@ -95,7 +95,7 @@ const Galeri = () => {
           ))}
         </div>
         <button className="py-2">
-          <a href={project[id - 1].link}>
+          <a target="blank" href={project[id - 1].link}>
             <span className="font-bold">Visit</span>
           </a>
         </button>
