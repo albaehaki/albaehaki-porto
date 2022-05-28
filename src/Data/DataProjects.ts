@@ -10,6 +10,8 @@ import {
   siBootstrap,
   siWordpress,
   siReactrouter,
+  siGithubpages,
+  siVercel,
 } from "simple-icons/icons";
 
  const project  = [
@@ -19,7 +21,7 @@ import {
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
         image: 'gambar.png',
         link: 'https://albaehaki.github.io/3/',
-        tags: [siHtml5, siCss3, siJavascript]
+        tags: [siHtml5, siCss3, siJavascript, siGithubpages]
     },
     {
         id: 2,
@@ -27,7 +29,7 @@ import {
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
         image: 'gambar1.png',
         link: 'https://albaehaki.github.io/',
-        tags: [siHtml5, siCss3, siJavascript, siBootstrap]
+        tags: [siHtml5, siCss3, siJavascript, siBootstrap, siGithubpages]
     },
     {
         id: 3,
@@ -51,7 +53,7 @@ import {
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
         image: 'gambar4.png',
         link: 'https://todo-list-react-typescript-omega.vercel.app/',
-        tags: [siReact, siTypescript, siTailwindcss]
+        tags: [siReact, siTypescript, siTailwindcss, siGreensock, siVercel]
     },
     {
         id: 6,
@@ -59,7 +61,7 @@ import {
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
         image: 'gambar5.png',
         link: 'https://search-movie-two.vercel.app/',
-        tags: [siReact, siTypescript, siTailwindcss, siReactrouter]
+        tags: [siReact, siTypescript, siTailwindcss, siReactrouter, siVercel]
     },
     {
         id: 7,
@@ -67,7 +69,7 @@ import {
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
         image: 'gambar6.png',
         link: 'https://albaehaki.vercel.app',
-        tags: [siReact, siTypescript, siTailwindcss, siRedux, siGreensock, siReactrouter]
+        tags: [siReact, siTypescript, siTailwindcss, siRedux, siGreensock, siReactrouter, siVercel]
     }
 ];
 
